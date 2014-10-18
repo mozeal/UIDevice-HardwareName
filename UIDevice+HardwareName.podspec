@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIDevice+HardwareName"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A category of UIDevice for hardware name"
 
   s.description  = <<-DESC
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mozeal/UIDevice-Hardware" }
+  s.source       = { :git => "https://github.com/mozeal/UIDevice-Hardware.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

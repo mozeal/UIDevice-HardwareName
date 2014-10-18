@@ -224,11 +224,11 @@
     if ([platform isEqualToString:@"iPad3,4"])    return UIDevice3GiPad;
     if ([platform isEqualToString:@"iPad3,5"])    return UIDevice3GiPad;
     if ([platform isEqualToString:@"iPad3,6"])    return UIDevice3GiPad;
-    if ([platform isEqualToString:@"iPad4,1"])    return UIDevice4AiriPad;
-    if ([platform isEqualToString:@"iPad4,2"])    return UIDevice4AiriPad;
-    if ([platform isEqualToString:@"iPad4,3"])    return UIDevice4AiriPad;
-    if ([platform isEqualToString:@"iPad5,3"])    return UIDevice4Air2iPad;
-    if ([platform isEqualToString:@"iPad5,4"])    return UIDevice4Air2iPad;
+    if ([platform isEqualToString:@"iPad4,1"])    return UIDeviceAiriPad;
+    if ([platform isEqualToString:@"iPad4,2"])    return UIDeviceAiriPad;
+    if ([platform isEqualToString:@"iPad4,3"])    return UIDeviceAiriPad;
+    if ([platform isEqualToString:@"iPad5,3"])    return UIDeviceAir2iPad;
+    if ([platform isEqualToString:@"iPad5,4"])    return UIDeviceAir2iPad;
     
     if ([platform isEqualToString:@"iPad2,5"])    return UIDevice1GiPadMini;
     if ([platform isEqualToString:@"iPad2,6"])    return UIDevice1GiPadMini;

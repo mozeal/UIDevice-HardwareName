@@ -188,61 +188,61 @@
     if ([platform isEqualToString:@"iFPGA"])        return UIDeviceIFPGA;
 
     // iPhone
-    if ([platform isEqualToString:@"iPhone1,1"])    return UIDevice1GiPhone
-    if ([platform isEqualToString:@"iPhone1,2"])    return UIDevice3GiPhone
-    if ([platform isEqualToString:@"iPhone2,1"])    return UIDevice3GSiPhone
-    if ([platform isEqualToString:@"iPhone3,1"])    return UIDevice4iPhone
-    if ([platform isEqualToString:@"iPhone3,2"])    return UIDevice4iPhone
-    if ([platform isEqualToString:@"iPhone3,3"])    return UIDevice4iPhone
-    if ([platform isEqualToString:@"iPhone4,1"])    return UIDevice4SiPhone
-    if ([platform isEqualToString:@"iPhone4,2"])    return UIDevice4SiPhone
-    if ([platform isEqualToString:@"iPhone4,3"])    return UIDevice4SiPhone
-    if ([platform isEqualToString:@"iPhone5,1"])    return UIDevice5iPhone
-    if ([platform isEqualToString:@"iPhone5,2"])    return UIDevice5iPhone
-    if ([platform isEqualToString:@"iPhone5,3"])    return UIDevice5CiPhone
-    if ([platform isEqualToString:@"iPhone5,4"])    return UIDevice5CiPhone
-    if ([platform isEqualToString:@"iPhone6,1"])    return UIDevice5SiPhone
-    if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone
-    if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6iPhone
-    if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6PlusiPhone
-    
-    if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod
-    if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod
-    if ([platform isEqualToString:@"iPod2,2"])    return UIDevice2GiPod
-    if ([platform isEqualToString:@"iPod3,1"])    return UIDevice3GiPod
-    if ([platform isEqualToString:@"iPod4,1"])    return UIDevice4GiPod
+    if ([platform isEqualToString:@"iPhone1,1"])    return UIDevice1GiPhone;
+    if ([platform isEqualToString:@"iPhone1,2"])    return UIDevice3GiPhone;
+    if ([platform isEqualToString:@"iPhone2,1"])    return UIDevice3GSiPhone;
+    if ([platform isEqualToString:@"iPhone3,1"])    return UIDevice4iPhone;
+    if ([platform isEqualToString:@"iPhone3,2"])    return UIDevice4iPhone;
+    if ([platform isEqualToString:@"iPhone3,3"])    return UIDevice4iPhone;
+    if ([platform isEqualToString:@"iPhone4,1"])    return UIDevice4SiPhone;
+    if ([platform isEqualToString:@"iPhone4,2"])    return UIDevice4SiPhone;
+    if ([platform isEqualToString:@"iPhone4,3"])    return UIDevice4SiPhone;
+    if ([platform isEqualToString:@"iPhone5,1"])    return UIDevice5iPhone;
+    if ([platform isEqualToString:@"iPhone5,2"])    return UIDevice5iPhone;
+    if ([platform isEqualToString:@"iPhone5,3"])    return UIDevice5CiPhone;
+    if ([platform isEqualToString:@"iPhone5,4"])    return UIDevice5CiPhone;
+    if ([platform isEqualToString:@"iPhone6,1"])    return UIDevice5SiPhone;
+    if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone;
+    if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6iPhone;
+    if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6PlusiPhone;
+
+    if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod;
+    if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod;
+    if ([platform isEqualToString:@"iPod2,2"])    return UIDevice2GiPod;
+    if ([platform isEqualToString:@"iPod3,1"])    return UIDevice3GiPod;
+    if ([platform isEqualToString:@"iPod4,1"])    return UIDevice4GiPod;
     
     // Thanks NSForge
-    if ([platform isEqualToString:@"iPad1,1"])    return UIDevice1GiPad
-    if ([platform isEqualToString:@"iPad2,1"])    return UIDevice2GiPad
-    if ([platform isEqualToString:@"iPad2,2"])    return UIDevice2GiPad
-    if ([platform isEqualToString:@"iPad2,3"])    return UIDevice2GiPad
-    if ([platform isEqualToString:@"iPad2,4"])    return UIDevice2GiPad
-    if ([platform isEqualToString:@"iPad3,1"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad3,2"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad3,3"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad3,4"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad3,5"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad3,6"])    return UIDevice3GiPad
-    if ([platform isEqualToString:@"iPad4,1"])    return UIDevice4AiriPad
-    if ([platform isEqualToString:@"iPad4,2"])    return UIDevice4AiriPad
-    if ([platform isEqualToString:@"iPad4,3"])    return UIDevice4AiriPad
-    if ([platform isEqualToString:@"iPad5,3"])    return UIDevice4Air2iPad
-    if ([platform isEqualToString:@"iPad5,4"])    return UIDevice4Air2iPad
+    if ([platform isEqualToString:@"iPad1,1"])    return UIDevice1GiPad;
+    if ([platform isEqualToString:@"iPad2,1"])    return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,2"])    return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,3"])    return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,4"])    return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad3,1"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,2"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,3"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,4"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,5"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,6"])    return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad4,1"])    return UIDevice4AiriPad;
+    if ([platform isEqualToString:@"iPad4,2"])    return UIDevice4AiriPad;
+    if ([platform isEqualToString:@"iPad4,3"])    return UIDevice4AiriPad;
+    if ([platform isEqualToString:@"iPad5,3"])    return UIDevice4Air2iPad;
+    if ([platform isEqualToString:@"iPad5,4"])    return UIDevice4Air2iPad;
     
-    if ([platform isEqualToString:@"iPad2,5"])    return UIDevice1GiPadMini
-    if ([platform isEqualToString:@"iPad2,6"])    return UIDevice1GiPadMini
-    if ([platform isEqualToString:@"iPad2,7"])    return UIDevice1GiPadMini
-    if ([platform isEqualToString:@"iPad4,4"])    return UIDevice2GiPadMini
-    if ([platform isEqualToString:@"iPad4,5"])    return UIDevice2GiPadMini
-    if ([platform isEqualToString:@"iPad4,6"])    return UIDevice2GiPadMini
-    if ([platform isEqualToString:@"iPad4,7"])    return UIDevice3GiPadMini
-    if ([platform isEqualToString:@"iPad4,8"])    return UIDevice3GiPadMini
-    if ([platform isEqualToString:@"iPad4,9"])    return UIDevice3GiPadMini
+    if ([platform isEqualToString:@"iPad2,5"])    return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad2,6"])    return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad2,7"])    return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad4,4"])    return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,5"])    return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,6"])    return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,7"])    return UIDevice3GiPadMini;
+    if ([platform isEqualToString:@"iPad4,8"])    return UIDevice3GiPadMini;
+    if ([platform isEqualToString:@"iPad4,9"])    return UIDevice3GiPadMini;
     
-    if ([platform isEqualToString:@"AppleTV2,1"])    return UIDeviceAppleTV2
-    if ([platform isEqualToString:@"AppleTV3,1"])    return UIDeviceAppleTV3
-    if ([platform isEqualToString:@"AppleTV3,2"])    return UIDeviceAppleTV4
+    if ([platform isEqualToString:@"AppleTV2,1"])    return UIDeviceAppleTV2;
+    if ([platform isEqualToString:@"AppleTV3,1"])    return UIDeviceAppleTV3;
+    if ([platform isEqualToString:@"AppleTV3,2"])    return UIDeviceAppleTV4;
 
     if ([platform hasPrefix:@"iPhone"])             return UIDeviceUnknowniPhone;
     if ([platform hasPrefix:@"iPod"])               return UIDeviceUnknowniPod;

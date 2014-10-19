@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIDevice+HardwareName"
-  s.version      = "0.0.2"
+  s.version      = "6.0.0"
   s.summary      = "A category of UIDevice for hardware name"
 
   s.description  = <<-DESC

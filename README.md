@@ -1,7 +1,7 @@
 UIDevice+HardwareName
 =====================
 
-UIDevice+HardwareName is UIDevice category adapted from Erica Sadun's [UIDevice+Extension] (https://github.com/erica/uidevice-extension).
+UIDevice+HardwareName is UIDevice category adapted from Erica Sadun's [UIDevice-extension] (https://github.com/erica/uidevice-extension).
 
 ## Installation
 

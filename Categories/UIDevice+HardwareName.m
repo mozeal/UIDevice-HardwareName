@@ -203,8 +203,8 @@
     if ([platform isEqualToString:@"iPhone5,4"])    return UIDevice5CiPhone;
     if ([platform isEqualToString:@"iPhone6,1"])    return UIDevice5SiPhone;
     if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone;
-    if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6iPhone;
-    if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6PlusiPhone;
+    if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6PlusiPhone;
+    if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6iPhone;
 
     if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod;
     if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod;

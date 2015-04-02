@@ -42,6 +42,7 @@
  iPod2,2   ->    Unknown, ??
  iPod3,1   ->    iPod touch 3G, N18
  iPod4,1   ->    iPod touch 4G, N80
+ iPod5,1   ->    iPod touch 5G, N78
  
  // Thanks NSForge
  iPad1,1   ->    iPad 1G, WiFi and 3G, K48
@@ -211,6 +212,7 @@
     if ([platform isEqualToString:@"iPod2,2"])    return UIDevice2GiPod;
     if ([platform isEqualToString:@"iPod3,1"])    return UIDevice3GiPod;
     if ([platform isEqualToString:@"iPod4,1"])    return UIDevice4GiPod;
+    if ([platform isEqualToString:@"iPod5,1"])    return UIDevice5GiPod;
     
     // Thanks NSForge
     if ([platform isEqualToString:@"iPad1,1"])    return UIDevice1GiPad;
@@ -285,6 +287,7 @@
         case UIDevice2GiPod: return IPOD_2G_NAMESTRING;
         case UIDevice3GiPod: return IPOD_3G_NAMESTRING;
         case UIDevice4GiPod: return IPOD_4G_NAMESTRING;
+        case UIDevice5GiPod: return IPOD_5G_NAMESTRING;
         case UIDeviceUnknowniPod: return IPOD_UNKNOWN_NAMESTRING;
             
         case UIDevice1GiPad: return IPAD_1G_NAMESTRING;

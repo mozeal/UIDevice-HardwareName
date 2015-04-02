@@ -24,6 +24,7 @@
 #define IPOD_2G_NAMESTRING              @"iPod touch 2G"
 #define IPOD_3G_NAMESTRING              @"iPod touch 3G"
 #define IPOD_4G_NAMESTRING              @"iPod touch 4G"
+#define IPOD_5G_NAMESTRING              @"iPod touch 5G"
 #define IPOD_UNKNOWN_NAMESTRING         @"Unknown iPod"
 
 #define IPAD_1G_NAMESTRING              @"iPad 1G"
@@ -73,6 +74,7 @@ typedef enum {
     UIDevice2GiPod,
     UIDevice3GiPod,
     UIDevice4GiPod,
+    UIDevice5GiPod,
     
     UIDevice1GiPad,
     UIDevice2GiPad,

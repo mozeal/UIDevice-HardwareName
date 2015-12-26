@@ -36,6 +36,8 @@
  iPhone6,2 ->    iPhone 5s
  iPhone7,1 ->    iPhone 6 Plus
  iPhone7,2 ->    iPhone 6
+ iPhone8,1 ->    iPhone 6s
+ iPhone8,2 ->    iPhone 6s Plus
 
  iPod1,1   ->    iPod touch 1G, N45
  iPod2,1   ->    iPod touch 2G, N72
@@ -205,6 +207,8 @@
     if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone;
     if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6PlusiPhone;
     if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6iPhone;
+	if ([platform isEqualToString:@"iPhone8,1"])    return UIDevice6sPlusiPhone;
+	if ([platform isEqualToString:@"iPhone8,2"])    return UIDevice6siPhone;
 
     if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod;
     if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod;
@@ -279,6 +283,8 @@
         case UIDevice5SiPhone: return IPHONE_5S_NAMESTRING;
         case UIDevice6iPhone: return IPHONE_6_NAMESTRING;
         case UIDevice6PlusiPhone: return IPHONE_6PLUS_NAMESTRING;
+		case UIDevice6siPhone: return IPHONE_6S_NAMESTRING;
+		case UIDevice6sPlusiPhone: return IPHONE_6SPLUS_NAMESTRING;
         case UIDeviceUnknowniPhone: return IPHONE_UNKNOWN_NAMESTRING;
         
         case UIDevice1GiPod: return IPOD_1G_NAMESTRING;

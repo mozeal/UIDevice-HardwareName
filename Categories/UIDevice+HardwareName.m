@@ -38,6 +38,7 @@
  iPhone7,2 ->    iPhone 6
  iPhone8,1 ->    iPhone 6s
  iPhone8,2 ->    iPhone 6s Plus
+ iPhone8,4 ->    iPhone SE
 
  iPod1,1   ->    iPod touch 1G, N45
  iPod2,1   ->    iPod touch 2G, N72
@@ -45,6 +46,7 @@
  iPod3,1   ->    iPod touch 3G, N18
  iPod4,1   ->    iPod touch 4G, N80
  iPod5,1   ->    iPod touch 5G, N78
+ iPod7,1   ->    iPod touch 6G, N78
  
  // Thanks NSForge
  iPad1,1   ->    iPad 1G, WiFi and 3G, K48
@@ -63,6 +65,10 @@
  iPad4,3   ->    (iPad Air, CDMA)
  iPad5,3   ->    (iPad Air 2)
  iPad5,4   ->    (iPad Air 2)
+ iPad6,7   ->    (iPad Pro)
+ iPad6,8   ->    (iPad Pro)
+ iPad6,3   ->    (9.7-inch iPad Pro)
+ iPad6,4   ->    (9.7-inch iPad Pro)
 
  iPad2,5   ->    iPad Mini 1G, 
  iPad2,6   ->    iPad Mini 1G, 
@@ -73,6 +79,8 @@
  iPad4,7   ->    iPad Mini 3G, 
  iPad4,8   ->    iPad Mini 3G, 
  iPad4,9   ->    iPad Mini 3G, 
+ iPad5,1   ->    iPad Mini 4G,
+ iPad5,2   ->    iPad Mini 4G,
 
  AppleTV2,1 ->   AppleTV 2, A1378
  AppleTV3,1 ->   AppleTV 3, A1427
@@ -210,6 +218,7 @@
     if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6iPhone;
 	if ([platform isEqualToString:@"iPhone8,1"])    return UIDevice6sPlusiPhone;
 	if ([platform isEqualToString:@"iPhone8,2"])    return UIDevice6siPhone;
+    if ([platform isEqualToString:@"iPhone8,4"])    return UIDeviceSEiPhone;
 
     if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod;
     if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod;
@@ -217,6 +226,7 @@
     if ([platform isEqualToString:@"iPod3,1"])    return UIDevice3GiPod;
     if ([platform isEqualToString:@"iPod4,1"])    return UIDevice4GiPod;
     if ([platform isEqualToString:@"iPod5,1"])    return UIDevice5GiPod;
+    if ([platform isEqualToString:@"iPod7,1"])    return UIDevice6GiPod;
     
     // Thanks NSForge
     if ([platform isEqualToString:@"iPad1,1"])    return UIDevice1GiPad;
@@ -235,6 +245,10 @@
     if ([platform isEqualToString:@"iPad4,3"])    return UIDeviceAiriPad;
     if ([platform isEqualToString:@"iPad5,3"])    return UIDeviceAir2iPad;
     if ([platform isEqualToString:@"iPad5,4"])    return UIDeviceAir2iPad;
+    if ([platform isEqualToString:@"iPad6,7"])    return UIDeviceiPadPro;
+    if ([platform isEqualToString:@"iPad6,8"])    return UIDeviceiPadPro;
+    if ([platform isEqualToString:@"iPad6,3"])    return UIDeviceiPadProMini;
+    if ([platform isEqualToString:@"iPad6,4"])    return UIDeviceiPadProMini;
     
     if ([platform isEqualToString:@"iPad2,5"])    return UIDevice1GiPadMini;
     if ([platform isEqualToString:@"iPad2,6"])    return UIDevice1GiPadMini;
@@ -245,6 +259,8 @@
     if ([platform isEqualToString:@"iPad4,7"])    return UIDevice3GiPadMini;
     if ([platform isEqualToString:@"iPad4,8"])    return UIDevice3GiPadMini;
     if ([platform isEqualToString:@"iPad4,9"])    return UIDevice3GiPadMini;
+    if ([platform isEqualToString:@"iPad5,1"])    return UIDevice4GiPadMini;
+    if ([platform isEqualToString:@"iPad5,2"])    return UIDevice4GiPadMini;
     
     if ([platform isEqualToString:@"AppleTV2,1"])    return UIDeviceAppleTV2;
     if ([platform isEqualToString:@"AppleTV3,1"])    return UIDeviceAppleTV3;
